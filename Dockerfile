@@ -12,4 +12,4 @@ ENV NODE_ENV=production
 
 EXPOSE 5678
 
-CMD ["n8n", "start"]
+CMD ["n8n"]
