@@ -1,11 +1,14 @@
 FROM n8nio/n8n:latest
 
-# Enable basic authentication (recommended)
+# Optional: set timezone (India)
+ENV GENERIC_TIMEZONE=Asia/Kolkata
+
+# Enable basic authentication
 ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_BASIC_AUTH_USER=admin
-ENV N8N_BASIC_AUTH_PASSWORD=admin123
+ENV N8N_BASIC_AUTH_PASSWORD=admin123   # ✅ Your chosen password
 
-# Set default server config
+# n8n configuration
 ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=5678
 ENV NODE_ENV=production
