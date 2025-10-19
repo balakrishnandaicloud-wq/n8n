@@ -6,7 +6,7 @@ ENV GENERIC_TIMEZONE=Asia/Kolkata
 # Enable basic authentication
 ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_BASIC_AUTH_USER=admin
-ENV N8N_BASIC_AUTH_PASSWORD=admin123   # ✅ Your chosen password
+ENV N8N_BASIC_AUTH_PASSWORD=admin123
 
 # n8n configuration
 ENV N8N_HOST=0.0.0.0
